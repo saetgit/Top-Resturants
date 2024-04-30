@@ -1,6 +1,11 @@
+import { RestaurantTable } from '#build/components';
+
+import type { RestaurantRow } from '#build/components';
 <template>
     <div>
         <Nav />
-        <h1>hello this is a restaurants</h1>
+        <div class="container">
+            <RestaurantTable />
+        </div>
     </div>
 </template>
