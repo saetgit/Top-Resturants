@@ -1,8 +1,10 @@
+
+import { NuxtLink } from '#build/components';
 <template>
     <div>
       <div class="container">
-        <h1>Welcome to Restaurantly</h1>
-        <NuxtLink to="/restaurants">Go to restaurants</NuxtLink>
+        <h1>404 not Found page</h1>
+        <NuxtLink href="/">Back</NuxtLink>
       </div>
     </div>
   </template>
